@@ -4,20 +4,20 @@ namespace WhatIsThisNamespace
 {
     public class HozeMethod
     {
-        public int GetGCD(int A, int B)
+        public int GetGCD(int num2, int num1)
         {
-            while (B != 0)
+            while (num1 != 0)
             {
-                int C = B;
-                B = A % B;
-                A = C;
+                int temp = num1;
+                num1 = num2 % num1;
+                num2 = temp;
             }
-            return A;
+            return num2;
         }
 
-        public int GetLCM(int Z, int Y)
+        public int GetLCM(int num1, int num2)
         {
-            return (Z * Y) / GetGCD(Z, Y);
+            return (num1 * num2) / GetGCD(num1, num2);
         }
     }
 }
