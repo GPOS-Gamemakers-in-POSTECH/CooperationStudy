@@ -46,7 +46,7 @@
     <Compile Include="WhatIsThis.cs" />
     <Compile Include="SWM493.cs" />
     <Compile Include="LOL.cs" />
-    <Compile Include="HAHAHA.cs" />
+    <Compile Include="CustomOperator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
