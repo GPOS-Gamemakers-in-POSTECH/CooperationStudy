@@ -3,7 +3,7 @@ using System;
 
 namespace WhatIsThisNamespace
 {
-    public class Operator
+    public class Calculator
     {
         public double Calculate(string str)
         {
@@ -12,19 +12,19 @@ namespace WhatIsThisNamespace
             return Convert.ToDouble(table.Compute(str, ""));
         }
 
-        public int A(int a, int b)
+        public int Add(int a, int b)
         {
             return a + b;
         }
-        public int B(int a, int b)
+        public int Subtract(int a, int b)
         {
             return a - b;
         }
-        public int C(int a, int b)
+        public int Divide(int a, int b)
         {
             return a / b;
         }
-        public int D(int a, int b)
+        public int Multiply(int a, int b)
         {
             return a * b;
         }

@@ -2,7 +2,7 @@
 
 namespace WhatIsThisNamespace
 {
-    public class SWM493
+    public class HozeMethod
     {
         public int GetGCD(int A, int B)
         {

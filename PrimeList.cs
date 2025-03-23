@@ -4,8 +4,8 @@ namespace WhatIsThisNamespace
 {
     public class PrimeList
     {
-        private int LimitNumber = 0;
-        private int Index = 0;
+        private int _limitNumber = 0;
+        private int _index = 0;
         private List<int> PrimeNumber = new List<int>();
 
         public Main(int LimitNumber)
