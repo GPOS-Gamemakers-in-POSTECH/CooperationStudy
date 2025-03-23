@@ -1,5 +1,5 @@
 ﻿using System;
-using WhatIsThisNamespace;
+using MiddleSchoolMathNamespace;
 
 // Don't Fix This Code
 namespace CooperationStudy
@@ -10,23 +10,23 @@ namespace CooperationStudy
         {
             Console.WriteLine("안녕 세상!");
             
-            WhatIsThis.What.set(100);
+            MiddleSchoolMath.MiddleSchoolManager.set(100);
             while (true)
             {
-                int i = WhatIsThis.What.lOL.QoWoFbs();
+                int i = MiddleSchoolMath.MiddleSchoolManager.PrimeRelatedInstance.GetPrimesFromList();
                 if (i == -1) { break; }
                 Console.Write(i + " ");
             }
 
             Console.WriteLine();
-            Console.WriteLine((int)WhatIsThis.What.hAHAHA.AToZ("10*102-23+423/34"));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.A(5, 10));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.B(10, 5));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.C(5, 5));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.D(5, 5));
+            Console.WriteLine((int)MiddleSchoolMath.MiddleSchoolManager.FourBasicOperation.ConvertStringToDouble("10*102-23+423/34"));
+            Console.WriteLine(MiddleSchoolMath.MiddleSchoolManager.FourBasicOperation.Add(5, 10));
+            Console.WriteLine(MiddleSchoolMath.MiddleSchoolManager.FourBasicOperation.Subtract(10, 5));
+            Console.WriteLine(MiddleSchoolMath.MiddleSchoolManager.FourBasicOperation.Divide(5, 5));
+            Console.WriteLine(MiddleSchoolMath.MiddleSchoolManager.FourBasicOperation.Multipy(5, 5));
 
-            Console.WriteLine(WhatIsThis.What.sWM493.FLAVITY(12,18));
-            Console.WriteLine(WhatIsThis.What.sWM493.FACTORY(12,18));
+            Console.WriteLine(MiddleSchoolMath.MiddleSchoolManager.GCDAndLCMInstance.CalculateGCD(12,18));
+            Console.WriteLine(MiddleSchoolMath.MiddleSchoolManager.GCDAndLCMInstance.CalculateLCM(12,18));
         }
     }
 }

@@ -1,16 +1,16 @@
-﻿namespace WhatIsThisNamespace
+﻿namespace MiddleSchoolMathNamespace
 {
-    public class WhatIsThis
+    public class MiddleSchoolMath
     {
-        public static WhatIsThis What { get; private set; } = new WhatIsThis();
+        public static MiddleSchoolMath MiddleSchoolManager { get; private set; } = new MiddleSchoolMath();
 
-        public HAHAHA hAHAHA { get; private set; } = new HAHAHA();
-        public LOL lOL { get; private set; } = new LOL(0);
-        public SWM493 sWM493 { get; private set; } = new SWM493();
+        public FourBasicOperations FourBasicOperation { get; private set; } = new FourBasicOperations();
+        public PrimeRelatedClass PrimeRelatedInstance { get; private set; } = new PrimeRelatedClass(0);
+        public GCDAndLCM GCDAndLCMInstance { get; private set; } = new GCDAndLCM();
 
-        public void set(int T_O)
+        public void set(int _maxSizeOfIteration)
         {
-            lOL = new LOL(T_O);
+            PrimeRelatedInstance = new PrimeRelatedClass(_maxSizeOfIteration);
         }
     }
 }

@@ -1,30 +1,30 @@
 ﻿using System.Data;
 using System;
 
-namespace WhatIsThisNamespace
+namespace MiddleSchoolMathNamespace
 {
-    public class HAHAHA
+    public class FourBasicOperations
     {
-        public double AToZ(string asdf)
+        public double ConvertStringToDouble(string target)
         {
 
             DataTable table = new DataTable();
-            return Convert.ToDouble(table.Compute(asdf, ""));
+            return Convert.ToDouble(table.Compute(target, ""));
         }
 
-        public int A(int a, int b)
+        public int Add(int a, int b)
         {
             return a + b;
         }
-        public int B(int a, int b)
+        public int Subtract(int a, int b)
         {
             return a - b;
         }
-        public int C(int a, int b)
+        public int Divide(int a, int b)
         {
             return a / b;
         }
-        public int D(int a, int b)
+        public int Multipy(int a, int b)
         {
             return a * b;
         }

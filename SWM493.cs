@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace WhatIsThisNamespace
+namespace MiddleSchoolMathNamespace
 {
-    public class SWM493
+    public class GCDAndLCM
     {
-        public int FLAVITY(int A, int B)
+        public int CalculateGCD(int A, int B)
         {
             while (B != 0)
             {
@@ -15,9 +15,9 @@ namespace WhatIsThisNamespace
             return A;
         }
 
-        public int FACTORY(int Z, int Y)
+        public int CalculateLCM(int Z, int Y)
         {
-            return (Z * Y) / FLAVITY(Z, Y);
+            return (Z * Y) / CalculateGCD(Z, Y);
         }
     }
 }
