@@ -8,9 +8,9 @@ namespace WhatIsThisNamespace
         private int _count = 0;
         private List<int> _primeList = new List<int>();
 
-        public PrimeGenerator(int MaxNum)
+        public PrimeGenerator(int maxNum)
         {
-            this._maxNum = MaxNum;
+            this._maxNum = maxNum;
 
             InitializePrimeList();
         }

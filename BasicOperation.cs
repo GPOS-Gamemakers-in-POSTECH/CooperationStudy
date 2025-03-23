@@ -3,28 +3,27 @@ using System;
 
 namespace WhatIsThisNamespace
 {
-    public class Utils
+    public class BasicOperation
     {
-        public double StringToDouble(string s)
+        public double EvalStringToDouble(string s)
         {
-
             DataTable table = new DataTable();
             return Convert.ToDouble(table.Compute(s, ""));
         }
 
-        public int Plus(int a, int b)
+        public int Add(int a, int b)
         {
             return a + b;
         }
-        public int Minus(int a, int b)
+        public int Sub(int a, int b)
         {
             return a - b;
         }
-        public int Divide(int a, int b)
+        public int Div(int a, int b)
         {
             return a / b;
         }
-        public int Times(int a, int b)
+        public int Mul(int a, int b)
         {
             return a * b;
         }
