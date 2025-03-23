@@ -19,11 +19,11 @@ namespace CooperationStudy
             }
 
             Console.WriteLine();
-            Console.WriteLine((int)WhatIsThis.What.hAHAHA.AToZ("10*102-23+423/34"));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.A(5, 10));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.B(10, 5));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.C(5, 5));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.D(5, 5));
+            Console.WriteLine((int)WhatIsThis.What.hAHAHA.AtoZ("10*102-23+423/34"));
+            Console.WriteLine(WhatIsThis.What.hAHAHA.Plus(5, 10));
+            Console.WriteLine(WhatIsThis.What.hAHAHA.Minus(10, 5));
+            Console.WriteLine(WhatIsThis.What.hAHAHA.Divide(5, 5));
+            Console.WriteLine(WhatIsThis.What.hAHAHA.Times(5, 5));
 
             Console.WriteLine(WhatIsThis.What.sWM493.FLAVITY(12,18));
             Console.WriteLine(WhatIsThis.What.sWM493.FACTORY(12,18));
