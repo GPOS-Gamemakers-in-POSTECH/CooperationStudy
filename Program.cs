@@ -1,8 +1,8 @@
 ﻿using System;
-using WhatIsThisNamespace;
+using MathToolbox;
 
 // Don't Fix This Code
-namespace CooperationStudy
+namespace BasicCalculator
 {
     internal class Program
     {
@@ -10,23 +10,23 @@ namespace CooperationStudy
         {
             Console.WriteLine("안녕 세상!");
             
-            WhatIsThis.What.set(100);
+            MathManger.s_mathManger.SetPrimeLimit(100);
             while (true)
             {
-                int i = WhatIsThis.What.lOL.QoWoFbs();
-                if (i == -1) { break; }
-                Console.Write(i + " ");
+                int Prime = MathManger.s_mathManger.PrimeNumbers.GetNextPrime();
+                if (Prime == -1) { break; }
+                Console.Write(Prime + " ");
             }
 
             Console.WriteLine();
-            Console.WriteLine((int)WhatIsThis.What.hAHAHA.AToZ("10*102-23+423/34"));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.A(5, 10));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.B(10, 5));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.C(5, 5));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.D(5, 5));
+            Console.WriteLine((int)MathManger.s_mathManger.CalculationTool.EvaluateExpression("10*102-23+423/34"));
+            Console.WriteLine(MathManger.s_mathManger.CalculationTool.Add(5, 10));
+            Console.WriteLine(MathManger.s_mathManger.CalculationTool.Sub(10, 5));
+            Console.WriteLine(MathManger.s_mathManger.CalculationTool.Divide(5, 5));
+            Console.WriteLine(MathManger.s_mathManger.CalculationTool.Multiply(5, 5));
 
-            Console.WriteLine(WhatIsThis.What.sWM493.FLAVITY(12,18));
-            Console.WriteLine(WhatIsThis.What.sWM493.FACTORY(12,18));
+            Console.WriteLine(MathManger.s_mathManger.gcdLcmCalculator.Gcd(12,18));
+            Console.WriteLine(MathManger.s_mathManger.gcdLcmCalculator.Lcm(12,18));
         }
     }
 }
