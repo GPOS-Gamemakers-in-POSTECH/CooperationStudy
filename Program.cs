@@ -24,8 +24,8 @@ namespace CooperationStudy
             Console.WriteLine(WhatIsThis.What.CustomOperator.Divide(5, 5));
             Console.WriteLine(WhatIsThis.What.CustomOperator.Multiply(5, 5));
 
-            Console.WriteLine(WhatIsThis.What.sWM493.FLAVITY(12,18));
-            Console.WriteLine(WhatIsThis.What.sWM493.FACTORY(12,18));
+            Console.WriteLine(WhatIsThis.What.GcdAndLcm.Gcd(12,18));
+            Console.WriteLine(WhatIsThis.What.GcdAndLcm.Lcm(12,18));
         }
     }
 }
