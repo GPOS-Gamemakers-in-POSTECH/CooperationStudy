@@ -10,7 +10,7 @@ namespace CooperationStudy
         {
             Console.WriteLine("안녕 세상!");
 
-            All.all.setPrimeList(100);
+            All.all.SetPrimeList(100);
             while (true)
             {
                 int i = All.all.primeList.QoWoFbs();
