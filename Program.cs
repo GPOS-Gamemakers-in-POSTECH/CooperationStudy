@@ -13,7 +13,7 @@ namespace CooperationStudy
             MathTool.mathTool.SetPrimeList(100);
             while (true)
             {
-                int i = MathTool.mathTool.primeList.QoWoFbs();
+                int i = MathTool.mathTool.primeList.NextNode();
                 if (i == -1) { break; }
                 Console.Write(i + " ");
             }
