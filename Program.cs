@@ -20,7 +20,7 @@ namespace CooperationStudy
 
             Console.WriteLine();
             Console.WriteLine((int)MiddleSchoolMath.MiddleSchoolManager.FourBasicOperation.ConvertStringToDouble("10*102-23+423/34"));
-            Console.WriteLine(MiddleSchoolMath.MiddleSchoolManager.FourBasicOperation.Add(5, 10));
+            Console.WriteLine(MiddleSchoolMath.MiddleSchoolManager.FourBasicOperation.Additive(5, 10));
             Console.WriteLine(MiddleSchoolMath.MiddleSchoolManager.FourBasicOperation.Subtract(10, 5));
             Console.WriteLine(MiddleSchoolMath.MiddleSchoolManager.FourBasicOperation.Divide(5, 5));
             Console.WriteLine(MiddleSchoolMath.MiddleSchoolManager.FourBasicOperation.Multipy(5, 5));
