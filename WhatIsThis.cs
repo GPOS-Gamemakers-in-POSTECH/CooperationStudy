@@ -2,7 +2,7 @@
 {
     public class MiddleSchoolMath
     {
-        public static WhatIsThis What { get; private set; } = new WhatIsThis();
+        public static MiddleSchoolMath MiddleSchoolManager { get; private set; } = new MiddleSchoolMath();
 
         public FourBasicOperations FourBasicOperation { get; private set; } = new FourBasicOperations();
         public PrimeRelatedClass PrimeRelatedInstance { get; private set; } = new PrimeRelatedClass(0);
