@@ -3,13 +3,13 @@ using System;
 
 namespace WhatIsThisNamespace
 {
-    public class HAHAHA
+    public class Utils
     {
-        public double AtoZ(string asdf)
+        public double StringToDouble(string s)
         {
 
             DataTable table = new DataTable();
-            return Convert.ToDouble(table.Compute(asdf, ""));
+            return Convert.ToDouble(table.Compute(s, ""));
         }
 
         public int Plus(int a, int b)

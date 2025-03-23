@@ -2,9 +2,9 @@
 
 namespace WhatIsThisNamespace
 {
-    public class SWM493
+    public class Numbers
     {
-        public int Flavity(int Number1, int Number2)
+        public int GCD(int Number1, int Number2)
         {
             while (Number2 != 0)
             {
@@ -15,9 +15,9 @@ namespace WhatIsThisNamespace
             return Number1;
         }
 
-        public int Factory(int Number1, int Number2)
+        public int LCM(int Number1, int Number2)
         {
-            return (Number1 * Number2) / Flavity(Number1, Number2);
+            return (Number1 * Number2) / GCD(Number1, Number2);
         }
     }
 }
