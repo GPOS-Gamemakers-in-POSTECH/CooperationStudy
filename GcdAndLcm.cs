@@ -17,7 +17,7 @@ namespace WhatIsThisNamespace
 
         public int Lcm(int num1, int num2)
         {
-            return (num1 * num2) / DoEuclideanAlgorithm(num1, num2);
+            return (num1 * num2) / Gcd(num1, num2);
         }
     }
 }
