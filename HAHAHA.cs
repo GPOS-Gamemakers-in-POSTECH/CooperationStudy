@@ -5,26 +5,26 @@ namespace WhatIsThisNamespace
 {
     public class HAHAHA
     {
-        public double AToZ(string asdf)
+        public double ConvertStringToDouble(string target)
         {
 
             DataTable table = new DataTable();
-            return Convert.ToDouble(table.Compute(asdf, ""));
+            return Convert.ToDouble(table.Compute(target, ""));
         }
 
-        public int A(int a, int b)
+        public int Add(int a, int b)
         {
             return a + b;
         }
-        public int B(int a, int b)
+        public int subtract(int a, int b)
         {
             return a - b;
         }
-        public int C(int a, int b)
+        public int divide(int a, int b)
         {
             return a / b;
         }
-        public int D(int a, int b)
+        public int multipy(int a, int b)
         {
             return a * b;
         }

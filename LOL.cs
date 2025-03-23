@@ -4,39 +4,39 @@ namespace WhatIsThisNamespace
 {
     public class LOL
     {
-        private int T_O = 0;
-        private int T_H_E = 0;
-        private List<int> S_T_A_R = new List<int>();
+        private int _maxSizeOfIteration = 0;
+        private int _indexOfList = 0;
+        private List<int> _PrimeList = new List<int>();
 
-        public LOL(int T_O)
+        public LOL(int _maxSizeOfIteration)
         {
-            this.T_O = T_O;
+            this._maxSizeOfIteration = _maxSizeOfIteration;
 
-            WjsWoDud();
+            AddPrimesToLIst();
         }
 
-        public int QoWoFbs()
+        public int GetPrimesFromList()
         {
-            if (T_H_E == S_T_A_R.Count) { return -1; }
-            return S_T_A_R[T_H_E++];
+            if (_indexOfList == _PrimeList.Count) { return -1; }
+            return _PrimeList[_indexOfList++];
         }
 
-        private void WjsWoDud()
+        private void AddPrimesToLIst()
         {
-            for (int i = 2; i < T_O; i++)
+            for (int i = 2; i < _maxSizeOfIteration; i++)
             {
-                bool _T_ = true;
+                bool isPrime = true;
                 for (int j = 2; j < i; j++)
                 {
                     if (i % j == 0)
                     {
-                        _T_ = false;
+                        isPrime = false;
                         break;
                     }
                 }
-                if (_T_)
+                if (isPrime)
                 {
-                    S_T_A_R.Add(i);
+                    _PrimeList.Add(i);
                 }
             }
         }
