@@ -2,13 +2,13 @@
 
 namespace WhatIsThisNamespace
 {
-    public class LOL
+    public class PrimeGenerator
     {
         private int _maxNum = 0;
         private int _count = 0;
         private List<int> _primeList = new List<int>();
 
-        public LOL(int MaxNum)
+        public PrimeGenerator(int MaxNum)
         {
             this._maxNum = MaxNum;
 

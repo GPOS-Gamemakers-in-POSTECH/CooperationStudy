@@ -5,12 +5,12 @@
         public static WhatIsThis What { get; private set; } = new WhatIsThis();
 
         public HAHAHA hAHAHA { get; private set; } = new HAHAHA();
-        public LOL lOL { get; private set; } = new LOL(0);
+        public PrimeGenerator primeGenerator { get; private set; } = new PrimeGenerator(0);
         public SWM493 sWM493 { get; private set; } = new SWM493();
 
-        public void set(int T_O)
+        public void set(int MaxNum)
         {
-            lOL = new LOL(T_O);
+            primeGenerator = new PrimeGenerator(MaxNum);
         }
     }
 }
