@@ -6,7 +6,7 @@
 
         public Calculator CalculationTool { get; private set; } = new Calculator();
         public PrimeGenerator PrimeNumbers { get; private set; } = new PrimeGenerator(0);
-        public GcdLcmCalculator gcdLcmCalculator { get; private set; } = new GcdLcmCalculator();
+        public GcdLcmCalculator GcdLcmTool { get; private set; } = new GcdLcmCalculator();
 
         public void SetPrimeLimit(int maxValue)
         {

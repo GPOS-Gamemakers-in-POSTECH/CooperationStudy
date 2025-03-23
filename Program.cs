@@ -25,8 +25,8 @@ namespace BasicCalculator
             Console.WriteLine(MathManger.s_mathManger.CalculationTool.Divide(5, 5));
             Console.WriteLine(MathManger.s_mathManger.CalculationTool.Multiply(5, 5));
 
-            Console.WriteLine(MathManger.s_mathManger.gcdLcmCalculator.Gcd(12,18));
-            Console.WriteLine(MathManger.s_mathManger.gcdLcmCalculator.Lcm(12,18));
+            Console.WriteLine(MathManger.s_mathManger.GcdLcmTool.Gcd(12,18));
+            Console.WriteLine(MathManger.s_mathManger.GcdLcmTool.Lcm(12,18));
         }
     }
 }
