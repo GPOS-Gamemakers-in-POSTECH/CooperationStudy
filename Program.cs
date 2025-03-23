@@ -1,7 +1,6 @@
 ﻿using System;
 using WhatIsThisNamespace;
 
-// Don't Fix This Code
 namespace CooperationStudy
 {
     internal class Program
@@ -19,11 +18,11 @@ namespace CooperationStudy
             }
 
             Console.WriteLine();
-            Console.WriteLine((int)WhatIsThis.What.hAHAHA.AToZ("10*102-23+423/34"));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.A(5, 10));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.B(10, 5));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.C(5, 5));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.D(5, 5));
+            Console.WriteLine((int)WhatIsThis.What.CustomOperator.ComputeByString("10*102-23+423/34"));
+            Console.WriteLine(WhatIsThis.What.CustomOperator.Plus(5, 10));
+            Console.WriteLine(WhatIsThis.What.CustomOperator.Minus(10, 5));
+            Console.WriteLine(WhatIsThis.What.CustomOperator.Divide(5, 5));
+            Console.WriteLine(WhatIsThis.What.CustomOperator.Multiply(5, 5));
 
             Console.WriteLine(WhatIsThis.What.sWM493.FLAVITY(12,18));
             Console.WriteLine(WhatIsThis.What.sWM493.FACTORY(12,18));

@@ -3,28 +3,28 @@ using System;
 
 namespace WhatIsThisNamespace
 {
-    public class HAHAHA
+    public class CustomOperator
     {
-        public double AToZ(string asdf)
+        public double ComputeByString(string asdf)
         {
 
             DataTable table = new DataTable();
             return Convert.ToDouble(table.Compute(asdf, ""));
         }
 
-        public int A(int a, int b)
+        public int Plus(int a, int b)
         {
             return a + b;
         }
-        public int B(int a, int b)
+        public int Minus(int a, int b)
         {
             return a - b;
         }
-        public int C(int a, int b)
+        public int Divide(int a, int b)
         {
             return a / b;
         }
-        public int D(int a, int b)
+        public int Multiply(int a, int b)
         {
             return a * b;
         }
