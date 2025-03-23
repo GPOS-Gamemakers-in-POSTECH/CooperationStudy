@@ -4,26 +4,26 @@ namespace WhatIsThisNamespace
 {
     public class LOL
     {
-        private int upperBound = 0;
-        private int currentNumber = 0;
-        private List<int> primeList = new List<int>();
+        private int _upperBound = 0;
+        private int _currentNumber = 0;
+        private List<int> _primeList = new List<int>();
 
-        public LOL(int upperBound)
+        public LOL(int _upperBound)
         {
-            this.upperBound = upperBound;
+            this._upperBound = _upperBound;
 
             GeneratePrimes();
         }
 
         public int GetNextPrime()
         {
-            if (currentNumber == primeList.Count) { return -1; }
-            return primeList[currentNumber++];
+            if (_currentNumber == _primeList.Count) { return -1; }
+            return _primeList[_currentNumber++];
         }
 
         private void GeneratePrimes()
         {
-            for (int i = 2; i < upperBound; i++)
+            for (int i = 2; i < _upperBound; i++)
             {
                 bool isPrime = true;
                 for (int j = 2; j < i; j++)
@@ -36,7 +36,7 @@ namespace WhatIsThisNamespace
                 }
                 if (isPrime)
                 {
-                    primeList.Add(i);
+                    _primeList.Add(i);
                 }
             }
         }
