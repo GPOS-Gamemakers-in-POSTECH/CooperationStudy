@@ -17,7 +17,7 @@ namespace MiddleSchoolMathNamespace
 
         public int GetPrimesFromList()
         {
-            if (_indexOfList == _PrimeList.Count) { return -1; }
+            if (_indexOfList == _primeList.Count) { return -1; }
             return _primeList[_indexOfList++];
         }
 

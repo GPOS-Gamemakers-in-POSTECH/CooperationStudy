@@ -4,20 +4,20 @@ namespace MiddleSchoolMathNamespace
 {
     public class GCDAndLCM
     {
-        public int CalculateGCD(int A, int B)
+        public int CalculateGCD(int a, int b)
         {
-            while (B != 0)
+            while (b != 0)
             {
-                int C = B;
-                B = A % B;
-                A = C;
+                int c = b;
+                b = a % b;
+                a = c;
             }
-            return A;
+            return a;
         }
 
-        public int CalculateLCM(int Z, int Y)
+        public int CalculateLCM(int z, int y)
         {
-            return (Z * Y) / CalculateGCD(Z, Y);
+            return (z * y) / CalculateGCD(z, y);
         }
     }
 }
