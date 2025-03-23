@@ -1,9 +1,9 @@
 ﻿using System.Data;
 using System;
 
-namespace WhatIsThisNamespace
+namespace MiddleSchoolMathNamespace
 {
-    public class HAHAHA
+    public class FourBasicOperations
     {
         public double ConvertStringToDouble(string target)
         {
@@ -16,15 +16,15 @@ namespace WhatIsThisNamespace
         {
             return a + b;
         }
-        public int subtract(int a, int b)
+        public int Subtract(int a, int b)
         {
             return a - b;
         }
-        public int divide(int a, int b)
+        public int Divide(int a, int b)
         {
             return a / b;
         }
-        public int multipy(int a, int b)
+        public int Multipy(int a, int b)
         {
             return a * b;
         }

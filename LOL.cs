@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 
-namespace WhatIsThisNamespace
+namespace MiddleSchoolMathNamespace
 {
-    public class LOL
+    public class PrimeRelatedClass
     {
         private int _maxSizeOfIteration = 0;
         private int _indexOfList = 0;
         private List<int> _PrimeList = new List<int>();
 
-        public LOL(int _maxSizeOfIteration)
+        public PrimeRelatedClass(int _maxSizeOfIteration)
         {
             this._maxSizeOfIteration = _maxSizeOfIteration;
 
