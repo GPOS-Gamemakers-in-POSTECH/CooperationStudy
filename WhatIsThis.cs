@@ -8,9 +8,9 @@
         public PrimeRelatedClass PrimeRelatedInstance { get; private set; } = new PrimeRelatedClass(0);
         public GCDAndLCM GCDAndLCMInstance { get; private set; } = new GCDAndLCM();
 
-        public void GeneratePrimeRelatedInstance(int _maxSizeOfIteration)
+        public void GeneratePrimeRelatedInstance(int maxSizeOfIteration)
         {
-            PrimeRelatedInstance = new PrimeRelatedClass(_maxSizeOfIteration);
+            PrimeRelatedInstance = new PrimeRelatedClass(maxSizeOfIteration);
         }
     }
 }
