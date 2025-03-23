@@ -13,7 +13,7 @@ namespace CooperationStudy
             WhatIsThis.What.set(100);
             while (true)
             {
-                int i = WhatIsThis.What.lOL.GetNextPrime();
+                int i = WhatIsThis.What.PrimeIterator.GetNextPrime();
                 if (i == -1) { break; }
                 Console.Write(i + " ");
             }
