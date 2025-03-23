@@ -19,14 +19,14 @@ namespace CooperationStudy
             }
 
             Console.WriteLine();
-            Console.WriteLine((int)MathTool.mathTool.calculator.Calculate("10*102-23+423/34"));
-            Console.WriteLine(MathTool.mathTool.calculator.Add(5, 10));
-            Console.WriteLine(MathTool.mathTool.calculator.Subtract(10, 5));
-            Console.WriteLine(MathTool.mathTool.calculator.Divide(5, 5));
-            Console.WriteLine(MathTool.mathTool.calculator.Multiply(5, 5));
+            Console.WriteLine((int)MathTool.mathTool.Calculator2.Calculate("10*102-23+423/34"));
+            Console.WriteLine(MathTool.mathTool.Calculator2.Add(5, 10));
+            Console.WriteLine(MathTool.mathTool.Calculator2.Subtract(10, 5));
+            Console.WriteLine(MathTool.mathTool.Calculator2.Divide(5, 5));
+            Console.WriteLine(MathTool.mathTool.Calculator2.Multiply(5, 5));
 
-            Console.WriteLine(MathTool.mathTool.hozeMethod.GetGCD(12,18));
-            Console.WriteLine(MathTool.mathTool.hozeMethod.GetLCM(12,18));
+            Console.WriteLine(MathTool.mathTool.HozeMethod2.GetGCD(12,18));
+            Console.WriteLine(MathTool.mathTool.HozeMethod2.GetLCM(12,18));
         }
     }
 }

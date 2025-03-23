@@ -8,7 +8,7 @@ namespace WhatIsThisNamespace
         private int _index = 0;
         private List<int> _primeNumber = new List<int>();
 
-        public Main(int LimitNumber)
+        public PrimeList(int LimitNumber)
         {
             this.LimitNumber = LimitNumber;
 
