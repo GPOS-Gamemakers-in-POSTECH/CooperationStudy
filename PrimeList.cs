@@ -6,7 +6,7 @@ namespace WhatIsThisNamespace
     {
         private int _limitNumber = 0;
         private int _index = 0;
-        private List<int> _primenumber = new List<int>();
+        private List<int> _primeNumber = new List<int>();
 
         public Main(int LimitNumber)
         {
@@ -17,8 +17,8 @@ namespace WhatIsThisNamespace
 
         public int NextNode()
         {
-            if (Index == _primenumber.Count) { return -1; }
-            return _primenumber[Index++];
+            if (Index == _primeNumber.Count) { return -1; }
+            return _primeNumber[Index++];
         }
 
         private void FindPrime()
@@ -36,7 +36,7 @@ namespace WhatIsThisNamespace
                 }
                 if (isPrime)
                 {
-                    _primenumber.Add(i);
+                    _primeNumber.Add(i);
                 }
             }
         }

@@ -12,7 +12,7 @@ namespace WhatIsThisNamespace
             return Convert.ToDouble(table.Compute(str, ""));
         }
 
-        public int Add(int a, int b)
+        public int Additive(int a, int b)
         {
             return a + b;
         }

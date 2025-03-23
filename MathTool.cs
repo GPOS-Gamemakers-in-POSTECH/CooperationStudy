@@ -1,8 +1,8 @@
 ﻿namespace WhatIsThisNamespace
 {
-    public class All
+    public class MathTool
     {
-        public static All all { get; private set; } = new All();
+        public static MathTool mathTool { get; private set; } = new MathTool();
 
         public Calculator calculator { get; private set; } = new Calculator();
         public PrimeList primeList { get; private set; } = new PrimeList(0);
