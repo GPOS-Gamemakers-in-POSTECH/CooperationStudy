@@ -6,7 +6,7 @@ namespace MiddleSchoolMathNamespace
     {
         private int _maxSizeOfIteration = 0;
         private int _indexOfList = 0;
-        private List<int> _PrimeList = new List<int>();
+        private List<int> _primeList = new List<int>();
 
         public PrimeRelatedClass(int _maxSizeOfIteration)
         {
@@ -18,7 +18,7 @@ namespace MiddleSchoolMathNamespace
         public int GetPrimesFromList()
         {
             if (_indexOfList == _PrimeList.Count) { return -1; }
-            return _PrimeList[_indexOfList++];
+            return _primeList[_indexOfList++];
         }
 
         private void AddPrimesToLIst()
@@ -36,7 +36,7 @@ namespace MiddleSchoolMathNamespace
                 }
                 if (isPrime)
                 {
-                    _PrimeList.Add(i);
+                    _primeList.Add(i);
                 }
             }
         }

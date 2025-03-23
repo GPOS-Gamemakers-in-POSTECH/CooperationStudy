@@ -10,7 +10,7 @@ namespace CooperationStudy
         {
             Console.WriteLine("안녕 세상!");
             
-            MiddleSchoolMath.MiddleSchoolManager.set(100);
+            MiddleSchoolMath.MiddleSchoolManager.GeneratePrimeRelatedInstance(100);
             while (true)
             {
                 int i = MiddleSchoolMath.MiddleSchoolManager.PrimeRelatedInstance.GetPrimesFromList();
