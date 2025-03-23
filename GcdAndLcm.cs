@@ -4,7 +4,7 @@ namespace WhatIsThisNamespace
 {
     public class GcdAndLcm
     {
-        public int DoEuclideanAlgorithm(int num1, int num2)
+        public int Gcd(int num1, int num2)
         {
             while (num2 != 0)
             {
@@ -15,7 +15,7 @@ namespace WhatIsThisNamespace
             return num1;
         }
 
-        public int GetLeastCommonMultiple(int num1, int num2)
+        public int Lcm(int num1, int num2)
         {
             return (num1 * num2) / DoEuclideanAlgorithm(num1, num2);
         }
