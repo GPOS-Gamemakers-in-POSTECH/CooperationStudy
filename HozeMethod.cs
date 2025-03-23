@@ -4,7 +4,7 @@ namespace WhatIsThisNamespace
 {
     public class SWM493
     {
-        public int FLAVITY(int A, int B)
+        public int GetGCD(int A, int B)
         {
             while (B != 0)
             {
@@ -15,9 +15,9 @@ namespace WhatIsThisNamespace
             return A;
         }
 
-        public int FACTORY(int Z, int Y)
+        public int GetLCM(int Z, int Y)
         {
-            return (Z * Y) / FLAVITY(Z, Y);
+            return (Z * Y) / GetGCD(Z, Y);
         }
     }
 }

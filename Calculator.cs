@@ -3,13 +3,13 @@ using System;
 
 namespace WhatIsThisNamespace
 {
-    public class HAHAHA
+    public class Operator
     {
-        public double AToZ(string asdf)
+        public double Calculate(string str)
         {
 
             DataTable table = new DataTable();
-            return Convert.ToDouble(table.Compute(asdf, ""));
+            return Convert.ToDouble(table.Compute(str, ""));
         }
 
         public int A(int a, int b)

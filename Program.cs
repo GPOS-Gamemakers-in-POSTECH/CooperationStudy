@@ -9,24 +9,24 @@ namespace CooperationStudy
         static void Main(string[] args)
         {
             Console.WriteLine("안녕 세상!");
-            
-            WhatIsThis.What.set(100);
+
+            All.all.set(100);
             while (true)
             {
-                int i = WhatIsThis.What.lOL.QoWoFbs();
+                int i = All.all.primeList.QoWoFbs();
                 if (i == -1) { break; }
                 Console.Write(i + " ");
             }
 
             Console.WriteLine();
-            Console.WriteLine((int)WhatIsThis.What.hAHAHA.AToZ("10*102-23+423/34"));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.A(5, 10));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.B(10, 5));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.C(5, 5));
-            Console.WriteLine(WhatIsThis.What.hAHAHA.D(5, 5));
+            Console.WriteLine((int)All.all.calculator.Calculate("10*102-23+423/34"));
+            Console.WriteLine(All.all.calculator.Add(5, 10));
+            Console.WriteLine(All.all.calculator.Subtract(10, 5));
+            Console.WriteLine(All.all.calculator.Divide(5, 5));
+            Console.WriteLine(All.all.calculator.Multiply(5, 5));
 
-            Console.WriteLine(WhatIsThis.What.sWM493.FLAVITY(12,18));
-            Console.WriteLine(WhatIsThis.What.sWM493.FACTORY(12,18));
+            Console.WriteLine(All.all.hozeMethod.GetGCD(12,18));
+            Console.WriteLine(All.all.hozeMethod.GetLCM(12,18));
         }
     }
 }
