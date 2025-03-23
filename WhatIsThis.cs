@@ -6,7 +6,7 @@
 
         public CustomOperator CustomOperator { get; private set; } = new CustomOperator();
         public LOL lOL { get; private set; } = new LOL(0);
-        public SWM493 sWM493 { get; private set; } = new SWM493();
+        public GcdAndLcm GcdAndLcm { get; private set; } = new GcdAndLcm();
 
         public void set(int T_O)
         {
