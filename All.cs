@@ -8,7 +8,7 @@
         public PrimeList primeList { get; private set; } = new PrimeList(0);
         public HozeMethod hozeMethod { get; private set; } = new HozeMethod();
 
-        public void set(int LimitNumber)
+        public void setPrimeList(int LimitNumber)
         {
             primeList = new PrimeList(LimitNumber);
         }
