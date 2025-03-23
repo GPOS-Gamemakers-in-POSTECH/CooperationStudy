@@ -25,8 +25,8 @@ namespace CooperationStudy
             Console.WriteLine(WhatIsThis.What.hAHAHA.C(5, 5));
             Console.WriteLine(WhatIsThis.What.hAHAHA.D(5, 5));
 
-            Console.WriteLine(WhatIsThis.What.sWM493.FLAVITY(12,18));
-            Console.WriteLine(WhatIsThis.What.sWM493.FACTORY(12,18));
+            Console.WriteLine(WhatIsThis.What.sWM493.Flavity(12,18));
+            Console.WriteLine(WhatIsThis.What.sWM493.Factory(12,18));
         }
     }
 }

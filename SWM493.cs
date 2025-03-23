@@ -4,20 +4,20 @@ namespace WhatIsThisNamespace
 {
     public class SWM493
     {
-        public int FLAVITY(int A, int B)
+        public int Flavity(int Number1, int Number2)
         {
-            while (B != 0)
+            while (Number2 != 0)
             {
-                int C = B;
-                B = A % B;
-                A = C;
+                int tmp = Number2;
+                Number2 = Number1 % Number2;
+                Number1 = tmp;
             }
-            return A;
+            return Number1;
         }
 
-        public int FACTORY(int Z, int Y)
+        public int Factory(int Number1, int Number2)
         {
-            return (Z * Y) / FLAVITY(Z, Y);
+            return (Number1 * Number2) / Flavity(Number1, Number2);
         }
     }
 }
